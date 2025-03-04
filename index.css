@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding: 70px;
+    min-width: 600px;
+    max-width: 600px;
+}
+#btn-nav{
+    font-family: inherit;
+}
+button{
+    font-family: inherit;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.counter{
+    background-color: black;
+    color: tomato;
+}
