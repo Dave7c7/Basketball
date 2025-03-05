@@ -1,26 +1,44 @@
 body {
+    display: flex;
+    justify-content: center;    
+    align-items: start  ;
     margin: 0;
     font-family: 'Cursed Timer ULiL', sans-serif;
+    background-image: url("https://st.depositphotos.com/1614195/1512/i/950/depositphotos_15126123-stock-photo-basketball-background.jpg");
+    background-size: cover;
 }
-
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1B244A;
     padding: 70px;
-    min-width: 600px;
-    max-width: 600px;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    margin-top: 50px;
 }
 #btn-nav{
     font-family: inherit;
 }
 button{
     font-family: inherit;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
 }
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
 }
 .counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+    margin: 10px;
     background-color: black;
     color: tomato;
 }
