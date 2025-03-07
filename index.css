@@ -8,15 +8,18 @@ body {
     background-size: cover;
 }
 .container {
+    border: solid 7px #000000;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1B244A;
     padding: 70px;
     width: 600px;
-    height: 250px;
+    height: 350px;
     text-align: center;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 #btn-nav{
     font-family: inherit;
@@ -46,4 +49,31 @@ h3{
     color: tomato;
     font-size: 80px;
     text-align: center;
+
+}
+.highlight{
+    animation: glow 1s ease-in-out infinite;
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px tomato;
+    }
+    50% {
+        box-shadow: 0 0 20px tomato;
+    }
+    100% {
+        box-shadow: 0 0 5px tomato;
+    }
+}
+#btn-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+}
+
+#btn-section button{
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
 }
