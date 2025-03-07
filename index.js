@@ -28,9 +28,10 @@ function cheackLeader(){
     }
 }
 function newGame(){
-    guestcount, homecount = 0;
-    GuessCounter.textContent = 0;
-    HomeCounter.textContent = 0;
+    guestcount = 0;
+    homecount = 0;
+    GuessCounter.textContent = Number(guestcount);
+    HomeCounter.textContent = Number(homecount);
     GuessCounter.classList.remove('highlight');
     HomeCounter.classList.remove('highlight');
 }
